@@ -15,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript wi
 ## The element of React 
 There is no need to be "root"
 However, This is a  standard convention.
+
+## React ES6 Classes
+[React ES6 Classes](https://www.w3schools.com/react/react_es6_classes.asp)
