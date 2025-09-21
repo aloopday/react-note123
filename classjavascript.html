@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>My Class JavaScript</title>
+    </head>
+    <body>
+        <p>Introduce class</p>
+        <p>Note: The constructor function is called automatically when the object is initialized.</p>
+        <p><b>Note:</b>The constructor function is called automatically when the object is initialized.</p>
+
+        <script>
+            class Car{
+                constructor(name){
+                    this.brand=name;
+                }
+            }
+
+            let mycar=new Car("Toyota");
+            document.write(mycar.brand);
+        </script>
+    </body>
+</html>
