@@ -18,3 +18,5 @@ However, This is a  standard convention.
 
 ## React ES6 Classes
 [React ES6 Classes](https://www.w3schools.com/react/react_es6_classes.asp)
+## Arrow Function
+[React ES6 Arrow Functions](https://www.w3schools.com/react/react_es6_arrow.asp)

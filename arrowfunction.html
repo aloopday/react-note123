@@ -8,13 +8,19 @@
     <body>
         <h1>Arrow Function</h1>
         <p>This demonstrates a regular function . Not an arrow function .</p>
+        <p>It gets shorter! If the function has only one statement, and the statement returns a value, 
+            you can remove the brackets and the return keyword:</p>
+            <p>If the function has only one statement,and the statement
+                returns a value,you can remove the brackets and return keyword!
+            </p>
         <p id="demo"></p>
         <script>
            /* hello=function(){
                 return "Hello world!";
             }*/
             
-            hello= () => {return "hello world"};
+            // hello= () => {return "hello world"};
+            hello = () => "hello charles"
 
             document.getElementById("demo").innerHTML=hello();
         </script>

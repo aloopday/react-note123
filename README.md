@@ -25,3 +25,8 @@
 
 ## : node
 [node](https://nodejs.org/en/download)
+
+## React render
+[React Render HTML](https://www.w3schools.com/react/react_render.asp)
+
+## React renders HTML to the web page via a container, and a function called createRoot().
