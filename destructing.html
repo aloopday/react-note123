@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> destructing object</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p>For objects, the order of the properties does not matter</p>
+        <script>
+            const person={
+                firstName:"Charles",
+                lastName:"Doe",
+                age:60
+            }
+
+            //Destructuring
+            let {firstName,lastName,age}= person;
+            //you can now access each variable separately;
+            document.getElementById("demo").innerHTML=firstName;
+        </script>
+    </body>
+</html>

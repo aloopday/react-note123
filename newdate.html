@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>destructing</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            function dateInfo(dat){
+                const d=dat.getDate();
+                const m=dat.getMonth()+1;
+                const y=dat.getFullYear();
+
+                return [d,m,y];
+            }
+
+            const [date,month,year] =dateInfo(new Date());
+
+            document.getElementById('demo').innerHTML="The year is "+year;
+        </script>
+    </body>
+</html>

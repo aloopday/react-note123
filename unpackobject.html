@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Destructuring</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            const person={
+                firstName:"Charles",
+                lastName:"Wang",
+                age:70
+            }
+
+            // Destructing
+            let{lastName,age,firstName}=person;
+            //You can access each variable separately:
+            document.getElementById("demo").innerHTML=firstName;
+        </script>
+    </body>
+</html>
